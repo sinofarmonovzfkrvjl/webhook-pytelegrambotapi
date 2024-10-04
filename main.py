@@ -2,7 +2,7 @@ import telebot
 from flask import Flask, request
 
 API_TOKEN = '7596605488:AAHImzVpR__WfikvzT-gFRgZL0vfTd5T1cs'
-WEBHOOK_URL = 'https://2990-82-215-107-238.ngrok-free.app/webhook'  # Replace with your URL
+WEBHOOK_URL = 'https://webhook-pytelegrambotapi.onrender.com/webhook'  # Replace with your URL
 
 bot = telebot.TeleBot(API_TOKEN)
 app = Flask(__name__)
